@@ -15,7 +15,7 @@ const Register = () => {
      <Form.Item label="Email" name="email">
      <Input type="email" required />
      </Form.Item>
-     <Form.Item label="Name" name="name">
+     <Form.Item label="Password" name="password">
      <Input type="password" required />
      </Form.Item>
      <button className="btn btn-primary" type="submit">
