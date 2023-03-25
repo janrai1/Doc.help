@@ -6,8 +6,9 @@ const { LoginController, registerController } = require('../controllers/userctrl
 const router = express.Router();
 //routes
 //LOGIN || POST
-Router.post('/login',LoginController);
+router.post('/login',LoginController);
 
 //REGISTER || POST
-Router.post('/register',registerController);
-module.express= router;
+router.post('/register',registerController);
+
+module.exports = router;

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Registerstyles.css";
+import "../styles/RegisterStyles.css";
 
 import { Form, Input, message } from "antd";
 import axios from "axios";
@@ -15,7 +15,7 @@ const Register = () => {
         message.success("Registered Successfully!");
         navigate("/login");
       } else {
-        message: error(res.data.message);
+       message.error(res.data.message);
       }
     } catch (error) {
       console.log(error);
