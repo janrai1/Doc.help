@@ -1,11 +1,7 @@
 import React from "react";
-import { SidebarMenu } from "../Data/data";
-import '../styles/LayoutStyles.css';
-import { Link,useLocation } from "react-router-dom";
-const Layout =({children}) =>{
-  const location= useLocation()
- 
-    return(
+
+const Layout =() =>{
+    return{
      <>
       <div className="main">
       <div className="layout">
@@ -32,7 +28,7 @@ const Layout =({children}) =>{
       </div>
       </div>  
       </>
-    );
+    };
 };
 
 export default Layout;
