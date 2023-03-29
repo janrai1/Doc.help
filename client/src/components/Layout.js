@@ -1,7 +1,7 @@
 import React from "react";
 
 const Layout =() =>{
-    return{
+    return (
      <>
       <div className="main">
       <div className="layout">
@@ -16,7 +16,7 @@ const Layout =() =>{
       </div>
       </div>  
       </>
-    };
-};
+    )
+}
 
 export default Layout;
