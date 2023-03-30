@@ -1,8 +1,6 @@
-import React from 'react'
-import Layout from './../components/Layout'
-import {Form} from 'antd'
-
-
+import React from "react";
+import Layout from "./../components/Layout";
+import { Col, Form, Input, Row, TimePicker } from "antd";
 
 
 const ApplyDoctor = () => {
